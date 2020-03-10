@@ -45,6 +45,7 @@ public class Greep extends Creature
         else {
             move();
             checkFood();
+            turn(1);
         }
     }
     
@@ -61,7 +62,8 @@ public class Greep extends Creature
             // do anything if we are alone here.
         }
     }
-
+   
+    
     /**
      * This method specifies the name of the author (for display on the result board).
      */
